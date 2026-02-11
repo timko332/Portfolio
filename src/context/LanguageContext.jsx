@@ -38,7 +38,7 @@ export const LanguageProvider = ({ children }) => {
           { 
             title: 'Computer Engineering Focus', 
             tag: 'PRESENT DAY', 
-            desc: 'Now I focus on building complete software solutions, from scalable web platforms to high-performance native Android applications. I love writing clean, optimized code and solving complex architectural challenges.' 
+            desc: 'Now I focus on building intelligent software solutions, from deep learning models and OS-level logic to scalable web and mobile applications.' 
           }
         ],
         cards: [
@@ -110,7 +110,7 @@ export const LanguageProvider = ({ children }) => {
           { 
             title: 'Фокус на компјутерско инженерство', 
             tag: 'ДЕНЕСКА', 
-            desc: 'Сега се фокусирам на градење целосни софтверски решенија, од скалабилни веб платформи до нативни Android апликации со високи перформанси. Сакам да пишувам чист, оптимизиран код и да решавам комплексни архитектонски предизвици.' 
+            desc: 'Сега се фокусирам на интелигентни софтверски решенија – од модели за длабоко учење и логика на оперативни системи, до скалабилни веб и мобилни апликации.' 
           }
         ],
         cards: [
