@@ -2,17 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { useLanguage } from './context/LanguageContext'; 
+import ProfileImg from './assets/Timotej_Risteski.JPG'; 
 
 function Home() {
-
   const { t } = useLanguage();
 
   return (
     <div name="home" className="w-full min-h-screen bg-[#0f172a] text-white pt-24">
-      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between min-h-screen">
         
-
         <motion.div 
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -45,7 +43,6 @@ function Home() {
             </div>
         </motion.div>
 
-
         <motion.div 
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -56,9 +53,9 @@ function Home() {
         >
           <div className="relative w-auto max-w-xs md:max-w-md">
             <img
-              src="src/assets/Timotej_Risteski.JPG" 
+              src={ProfileImg} 
               alt="Timotej Risteski"
-              className="block rounded-2xl w-full h-auto object-contain"
+              className="block rounded-2xl w-full h-auto object-contain shadow-2xl border border-slate-700"
             />
           </div>
         </motion.div>
