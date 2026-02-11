@@ -30,7 +30,7 @@ function Projects() {
       title: "Portfolio Website",
       stack: ["React", "Tailwind CSS", "Vite"],
       image: Portfolio,
-      codeLink: "https://github.com",
+      codeLink: "https://github.com/timko332/Portfolio",
       description: "A modern, bilingual portfolio showcasing my software engineering journey. Built with React and Tailwind CSS, featuring a custom Context API implementation for seamless English/Macedonian localization, responsive design, and fluid animations."
     },
     {
