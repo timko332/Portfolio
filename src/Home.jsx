@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { useLanguage } from './context/LanguageContext'; 
-import ProfileImg from './assets/Timotej_Risteski.JPG'; 
+import ProfileImg from './assets/Timotej_Risteski.jpg';
 
 function Home() {
   const { t } = useLanguage();
